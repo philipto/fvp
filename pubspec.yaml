@@ -1,7 +1,7 @@
 name: fvp
 description: video_player plugin and backend APIs. Support all desktop/mobile platforms with hardware decoders, optimal renders. Supports most formats via FFmpeg
 version: 0.37.2
-homepage: https://github.com/wang-bin/fvp
+homepage: https://github.com/philipto/fvp
 topics:
   - video
   - player
@@ -53,9 +53,6 @@ flutter:
       android:
         package: com.mediadevkit.fvp
         pluginClass: FvpPlugin
-      ios:
-        pluginClass: FvpPlugin
-        sharedDarwinSource: true
       linux:
         dartPluginClass: VideoPlayerRegistrant # auto registered in .dart_tool/flutter_build/dart_plugin_registrant.dart
         pluginClass: FvpPlugin
